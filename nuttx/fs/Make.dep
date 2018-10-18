@@ -1,0 +1,3279 @@
+fs_initialize.o: fs_initialize.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h inode/inode.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h aio/aio.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/aio.h \
+ /work/Pikachu/nuttx/include/nuttx/wqueue.h
+fs_files.o: inode/fs_files.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_foreachinode.o: inode/fs_foreachinode.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_inode.o: inode/fs_inode.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_inodeaddref.o: inode/fs_inodeaddref.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_inodebasename.o: inode/fs_inodebasename.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h inode/inode.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_inodefind.o: inode/fs_inodefind.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_inodefree.o: inode/fs_inodefree.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_inoderelease.o: inode/fs_inoderelease.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_inoderemove.o: inode/fs_inoderemove.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_inodereserve.o: inode/fs_inodereserve.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_inodesearch.o: inode/fs_inodesearch.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_filedetach.o: inode/fs_filedetach.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h
+fs_close.o: vfs/fs_close.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_dup.o: vfs/fs_dup.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_dup2.o: vfs/fs_dup2.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_fcntl.o: vfs/fs_fcntl.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h
+fs_dupfd.o: vfs/fs_dupfd.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_dupfd2.o: vfs/fs_dupfd2.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_epoll.o: vfs/fs_epoll.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/epoll.h \
+ /work/Pikachu/nuttx/include/poll.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_fstat.o: vfs/fs_fstat.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_fstatfs.o: vfs/fs_fstatfs.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_getfilep.o: vfs/fs_getfilep.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/socket.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_ioctl.o: vfs/fs_ioctl.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/serial/tioctl.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/net/if.h \
+ /work/Pikachu/nuttx/include/sys/socket.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_lseek.o: vfs/fs_lseek.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_mkdir.o: vfs/fs_mkdir.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/queue.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_open.o: vfs/fs_open.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/fcntl.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h driver/driver.h
+fs_poll.o: vfs/fs_poll.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/poll.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_read.o: vfs/fs_read.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/socket.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_rename.o: vfs/fs_rename.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/libgen.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_rmdir.o: vfs/fs_rmdir.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_statfs.o: vfs/fs_statfs.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_stat.o: vfs/fs_stat.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_select.o: vfs/fs_select.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/select.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/sys/time.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/poll.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_unlink.o: vfs/fs_unlink.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_write.o: vfs/fs_write.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_fsync.o: vfs/fs_fsync.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/fcntl.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h
+fs_truncate.o: vfs/fs_truncate.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/fcntl.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_pread.o: vfs/fs_pread.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h
+fs_pwrite.o: vfs/fs_pwrite.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/cancelpt.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h
+fs_link.o: vfs/fs_link.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_readlink.o: vfs/fs_readlink.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_fdopen.o: vfs/fs_fdopen.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h
+fs_registerdriver.o: driver/fs_registerdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_unregisterdriver.o: driver/fs_unregisterdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_registerblockdriver.o: driver/fs_registerblockdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_unregisterblockdriver.o: driver/fs_unregisterblockdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_findblockdriver.o: driver/fs_findblockdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/mount.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h driver/driver.h
+fs_openblockdriver.o: driver/fs_openblockdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/debug.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h driver/driver.h
+fs_closeblockdriver.o: driver/fs_closeblockdriver.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/debug.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_blockpartition.o: driver/fs_blockpartition.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/mount.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/serial/tioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h driver/driver.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h
+fs_blockproxy.o: driver/fs_blockproxy.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/unistd.h /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/fcntl.h /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/drivers/drivers.h
+fs_closedir.o: dirent/fs_closedir.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h inode/inode.h
+fs_opendir.o: dirent/fs_opendir.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/assert.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h inode/inode.h
+fs_readdir.o: dirent/fs_readdir.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/dirent.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h inode/inode.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_rewinddir.o: dirent/fs_rewinddir.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h inode/inode.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_seekdir.o: dirent/fs_seekdir.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/dirent.h /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h inode/inode.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_mmap.o: mmap/fs_mmap.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/mman.h \
+ /work/Pikachu/nuttx/include/sys/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/serial/tioctl.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/debug.h \
+ /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h mmap/fs_rammap.h
+mq_open.o: mqueue/mq_open.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/fcntl.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h mqueue/mqueue.h
+mq_close.o: mqueue/mq_close.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h mqueue/mqueue.h
+mq_unlink.o: mqueue/mq_unlink.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h mqueue/mqueue.h
+fs_mount.o: mount/fs_mount.c /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/mount.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h driver/driver.h
+fs_umount2.o: mount/fs_umount2.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/mount.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/errno.h /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ inode/inode.h /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h
+fs_foreachmountpoint.o: mount/fs_foreachmountpoint.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h inode/inode.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h mount/mount.h
+fs_procfs_mount.o: mount/fs_procfs_mount.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdio.h /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h \
+ /work/Pikachu/nuttx/include/dirent.h mount/mount.h
+fs_gettype.o: mount/fs_gettype.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h mount/mount.h
+fs_partition.o: partition/fs_partition.c \
+ /work/Pikachu/nuttx/include/sys/mount.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/nuttx/config.h partition/partition.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/partition.h \
+ /work/Pikachu/nuttx/include/nuttx/mtd/mtd.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/ioctl.h \
+ /work/Pikachu/nuttx/include/nuttx/serial/tioctl.h
+fs_procfs.o: procfs/fs_procfs.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h \
+ /work/Pikachu/nuttx/include/dirent.h \
+ /work/Pikachu/nuttx/include/nuttx/lib/regex.h mount/mount.h
+fs_procfsutil.o: procfs/fs_procfsutil.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/mqueue.h \
+ /work/Pikachu/nuttx/include/signal.h /work/Pikachu/nuttx/include/time.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/queue.h
+fs_procfsproc.o: procfs/fs_procfsproc.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/environ.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/dirent.h \
+ /work/Pikachu/nuttx/include/dirent.h
+fs_procfsuptime.o: procfs/fs_procfsuptime.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h
+fs_procfscpuload.o: procfs/fs_procfscpuload.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/statfs.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h
+fs_procfsmeminfo.o: procfs/fs_procfsmeminfo.c \
+ /work/Pikachu/nuttx/include/nuttx/config.h \
+ /work/Pikachu/nuttx/include/sys/types.h \
+ /work/Pikachu/nuttx/include/nuttx/compiler.h \
+ /work/Pikachu/nuttx/include/stdint.h \
+ /work/Pikachu/nuttx/include/arch/types.h \
+ /work/Pikachu/nuttx/include/limits.h \
+ /work/Pikachu/nuttx/include/arch/limits.h \
+ /work/Pikachu/nuttx/include/sys/stat.h \
+ /work/Pikachu/nuttx/include/time.h /work/Pikachu/nuttx/include/stdbool.h \
+ /work/Pikachu/nuttx/include/stdio.h \
+ /work/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /work/Pikachu/nuttx/include/sched.h \
+ /work/Pikachu/nuttx/include/nuttx/sched.h \
+ /work/Pikachu/nuttx/include/queue.h /work/Pikachu/nuttx/include/signal.h \
+ /work/Pikachu/nuttx/include/semaphore.h \
+ /work/Pikachu/nuttx/include/pthread.h \
+ /work/Pikachu/nuttx/include/sys/prctl.h \
+ /work/Pikachu/nuttx/include/unistd.h \
+ /work/Pikachu/nuttx/include/nuttx/semaphore.h \
+ /work/Pikachu/nuttx/include/errno.h \
+ /work/Pikachu/nuttx/include/nuttx/clock.h \
+ /work/Pikachu/nuttx/include/mqueue.h /work/Pikachu/nuttx/include/queue.h \
+ /work/Pikachu/nuttx/include/nuttx/irq.h \
+ /work/Pikachu/nuttx/include/assert.h \
+ /work/Pikachu/nuttx/include/arch/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/irq.h \
+ /work/Pikachu/nuttx/include/arch/stm32l4/stm32l4x3xx_irq.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq.h \
+ /work/Pikachu/nuttx/include/arch/chip/chip.h \
+ /work/Pikachu/nuttx/include/arch/armv7-m/irq_cmnvector.h \
+ /work/Pikachu/nuttx/include/nuttx/wdog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/shm.h \
+ /work/Pikachu/nuttx/include/debug.h /work/Pikachu/nuttx/include/syslog.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/gran.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/fs.h \
+ /work/Pikachu/nuttx/include/nuttx/mqueue.h \
+ /work/Pikachu/nuttx/include/nuttx/net/net.h \
+ /work/Pikachu/nuttx/include/arch/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/pgalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/addrenv.h \
+ /work/Pikachu/nuttx/include/stdlib.h \
+ /work/Pikachu/nuttx/include/string.h \
+ /work/Pikachu/nuttx/include/stddef.h /work/Pikachu/nuttx/include/fcntl.h \
+ /work/Pikachu/nuttx/include/nuttx/kmalloc.h \
+ /work/Pikachu/nuttx/include/nuttx/mm/mm.h \
+ /work/Pikachu/nuttx/include/nuttx/userspace.h \
+ /work/Pikachu/nuttx/include/nuttx/arch.h \
+ /work/Pikachu/nuttx/include/nuttx/progmem.h \
+ /work/Pikachu/nuttx/include/nuttx/fs/procfs.h
