@@ -1838,7 +1838,7 @@ static int stm32l4_i2c_isr_process(struct stm32l4_i2c_priv_s *priv)
 
       /* TXIS interrupt occurred, address valid, ready to transmit */
 
-      stm32l4_i2c_traceevent(priv, I2CEVENT_WRITE, 0);
+      stm32l4_i2c_traceevent(priv, I2CEVENT_WRITE_TO_DR, 0);
       i2cinfo("TXIS: ENTER dcnt = %i msgc = %i status 0x%08x\n",
               priv->dcnt, priv->msgc, status);
 
@@ -1949,7 +1949,7 @@ static int stm32l4_i2c_isr_process(struct stm32l4_i2c_priv_s *priv)
 
       if (priv->dcnt > 0)
         {
-          stm32l4_i2c_traceevent(priv, I2CEVENT_RCVBYTE, priv->dcnt);
+          stm32l4_i2c_traceevent(priv, I2CEVENT_READ, priv->dcnt);
 
           /* No interrupts or context switches may occur in the following
            * sequence.  Otherwise, additional bytes may be received.
@@ -2067,7 +2067,7 @@ static int stm32l4_i2c_isr_process(struct stm32l4_i2c_priv_s *priv)
 
           i2cinfo("TC: STOP: dcnt=%i msgc=%i\n",
           priv->dcnt, priv->msgc);
-          stm32l4_i2c_traceevent(priv, I2CEVENT_STOP, priv->dcnt);
+          stm32l4_i2c_traceevent(priv, I2CEVENT_WRITE_STOP, priv->dcnt);
 
           stm32l4_i2c_sendstop(priv);
 
@@ -2234,7 +2234,7 @@ static int stm32l4_i2c_isr_process(struct stm32l4_i2c_priv_s *priv)
   else
     {
 #ifdef CONFIG_I2C_POLLED
-      stm32l4_i2c_traceevent(priv, I2CEVENT_POLL_DEV_NOT_RDY, 0);
+      stm32l4_i2c_traceevent(priv, I2CEVENT_POLL_NOT_READY, 0);
 #else
       /* Read rest of the state */
 

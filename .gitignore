@@ -50,6 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.updated
+*.dep
+*.bdat
+*.pdat
+*.built
+*.depend
+*.old
+apps/Kconfig
+apps/platform/board
+apps/builtin/builtin_list.h
+apps/builtin/builtin_proto.h
+nuttx/tools/mkconfig
+nuttx/tools/mkdeps
+nuttx/tools/mkversion
+.config
 nuttx
 nuttx.bin
 
