@@ -943,6 +943,15 @@ config ARCH_BOARD_NUCLEO_L452RE
 	---help---
 		STMicro Nucleo L452RE board based on the STMicro STM32L452RET6 MCU.
 
+config ARCH_BOARD_PURE_WATCH
+	bool "PURE WATCH"
+	depends on ARCH_CHIP_STM32L452RE
+	select ARCH_HAVE_LEDS
+	select ARCH_HAVE_BUTTONS
+	select ARCH_HAVE_IRQBUTTONS
+	---help---
+		Pure Watch board based on the STMicro STM32L452CEU6 MCU.
+
 config ARCH_BOARD_NUCLEO_L476RG
 	bool "STM32L476 Nucleo L476RG"
 	depends on ARCH_CHIP_STM32L476RG
@@ -1730,6 +1739,7 @@ config ARCH_BOARD
 	default "nucleo-h743zi"            if ARCH_BOARD_NUCLEO_H743ZI
 	default "nucleo-l432kc"            if ARCH_BOARD_NUCLEO_L432KC
 	default "nucleo-l452re"            if ARCH_BOARD_NUCLEO_L452RE
+	default "pure-watch"               if ARCH_BOARD_PURE_WATCH
 	default "nucleo-l476rg"            if ARCH_BOARD_NUCLEO_L476RG
 	default "nucleo-l496zg"            if ARCH_BOARD_NUCLEO_L496ZG
 	default "nutiny-nuc120"            if ARCH_BOARD_NUTINY_NUC120
@@ -2056,6 +2066,9 @@ source "configs/nucleo-l432kc/Kconfig"
 endif
 if ARCH_BOARD_NUCLEO_L452RE
 source "configs/nucleo-l452re/Kconfig"
+endif
+if ARCH_BOARD_PURE_WATCH
+source "configs/pure-watch/Kconfig"
 endif
 if ARCH_BOARD_NUCLEO_L476RG
 source "configs/nucleo-l476rg/Kconfig"
