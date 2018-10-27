@@ -1648,8 +1648,10 @@ static inline void stm32l4_i2c_sendstart(FAR struct stm32l4_i2c_priv_s *priv)
    * START condition using the address and transfer direction data entered.
    */
 
-  i2cinfo("Sending START: dcnt=%i msgc=%i flags=0x%04x\n",
-          priv->dcnt, priv->msgc, priv->flags);
+  i2cinfo("Sending START: dcnt=%i msgc=%i flags=0x%04x,CR1=0x%08x,CR2=0x%08x\n",
+          priv->dcnt, priv->msgc, priv->flags,
+          stm32l4_i2c_getreg32(priv, STM32L4_I2C_CR1_OFFSET),
+          stm32l4_i2c_getreg32(priv, STM32L4_I2C_CR2_OFFSET));
 
   stm32l4_i2c_modifyreg32(priv, STM32L4_I2C_CR2_OFFSET, 0, I2C_CR2_START);
 }

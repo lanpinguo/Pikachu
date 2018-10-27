@@ -1,0 +1,23 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+
+menuconfig EXAMPLE_HTU21D
+	tristate "HTU21D Demo"
+	default n
+	depends on I2C
+	select I2C_DRIVER
+	---help---
+		Enable support for the htu21d sensor demo.
+
+if EXAMPLE_HTU21D
+
+config HTU21D_DEFFREQ
+	int "Default I2C frequency"
+	default 100000
+	---help---
+		Default I2C frequency (default: 100000)
+
+endif # EXAMPLE_HTU21D
