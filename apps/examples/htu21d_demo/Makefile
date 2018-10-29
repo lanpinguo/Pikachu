@@ -36,7 +36,9 @@
 -include $(TOPDIR)/Make.defs
 
 # HTU21D DEMO
-MAINSRC = htu21d_main.c
+#CXXSRCS  = algorithm_by_RF.cxx
+CSRCS  = algorithm_by_RF.c
+MAINSRC = htu21d_main.c 
 
 CONFIG_XYZ_PROGNAME ?= i2c$(EXEEXT)
 PROGNAME = $(CONFIG_XYZ_PROGNAME)
